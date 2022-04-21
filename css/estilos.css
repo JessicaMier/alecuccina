@@ -19,6 +19,10 @@ nav div img{
     object-fit: contain;
     align-items: center
 }
+nav div img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 nav ul{
     padding: 10px;
     list-style: none;
@@ -39,6 +43,8 @@ nav ul li a{
     color: rgb(90, 84, 84);
 }
 a:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
     color: rgb(105, 56, 197);
 }
 @media only screen and (max-width: 800px){
@@ -79,6 +85,11 @@ main {background-image: url(../media/img/oliva.jpg);
     color: aliceblue;
     text-align: center;
     padding: 10px;
+}
+.tituloIndex:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color:rgb(78, 75, 75);
 }
 .NosotrosParrafo{
     height: 100vh;
@@ -371,6 +382,10 @@ tr:hover{
     margin: auto;
     text-align: center;
 }
+.formImg img:hover{
+ transform: scale(1.1);
+ transition: 0.5s;
+}
 .form p{
     font-size: 30px;
 }
@@ -479,14 +494,22 @@ footer{
     color: aliceblue;
     background-size:cover ;
     }
-    
+    footer p:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+        background-color: rgb(78, 75, 75);
+    }
     footer i{
     height: 80px;
     width: 80px;
     font-size: 50px;
     color: black;
     }
-    
+        
     footer i:hover{
-    color: aliceblue;
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: rgb(19, 143, 70);
     }  
+    
+    
