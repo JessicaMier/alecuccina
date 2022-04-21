@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="icon" href="../media/img/logoale.ico">
+    <enlace rel="preconectar" href="https://fonts.googleapis.com">
+        <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+        <enlace href="https: //fonts.googleapis.com/css2? family= Roboto:ital,wght@1,700 & display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="../index.html"><img src="../media/img/logo.Ale.cuccina.jpg" alt="logo"></a>
+        </div>  
+        <ul>
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="./galeria.html">GALERIA</a></li>
+            <li><a href="./menu.html">MENU</a></li>
+            <li><a href="./contacto.html" class="active">CONTACTO</a></li>
+            <li><a href="./novedades.html">NOVEDADES</a></li>
+        </ul>
+    </nav> 
+    <main>
+        <article>
+            <div class="textoFormulario"><p >Completa tus datos</p></div>
+                <section class="flexContainer">
+                    <form class="form" action="enviar.php" method="post">
+                        <div class="formSection">
+                            <input type="text"class="formImput" placeholder="escribe tu nombre"><br>
+                        </div>
+                        <div class="formSection">
+                            <input type="text" class="formImput" placeholder="escribe tu apellido"><br>
+                        </div>
+                        <div class="formSection">
+                            <input type="number"class="formImput" placeholder="escribe tu telefono"><br>
+                        </div>
+                        <div class="formSection">
+                            <input type="email"class="formImput" placeholder="escribe tu mail"><br>
+                        </div>
+                        <p>Ubicacion</p>
+                        <select name="Ubicacion" class="formImput" Ubicacion>
+                        <option value="Capital Federal">Capital Federal</option>
+                        <option value="zona norte">Zona Norte</option>
+                        <option value="zona Sur">Zona sur</option>
+                        <option value="zona oeste">Zona oeste</option>
+                        <option value="zona este">Zona Este</option>
+                        </option>
+                        </select>
+                        <br>
+                        <textarea class="formImput" name="Comentarios" placeholder="comentarios" id="comentarios" cols="30"
+                        rows="5"></textarea><br>
+                        <input type="checkbox" class="terminos">
+                        <label for="" class="terminos">Acepta los terminos y condiciones</label><br><br>
+                        <input type="reset" class="terminos" value="Borrar">
+                        <input type="submit" class="terminos">
+                    </form>
+                    <div class="formImg"><img src="../media/img/email.png" alt=""></div>
+            </section>    
+            <section class="mapa">
+                <p>Donde nos ubicamos</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26242.06863041262!2d-58.41648036391267!3d-34.69865741445229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd2194f3cfb7%3A0x8c054a901d575260!2sLan%C3%BAs%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1650252491175!5m2!1ses-419!2sar" width="358" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>contactanos</p>
+            <a href="https://www.facebook.com/alejandro.cuccina"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://wa.me/5491153110090"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/alecuccina/"><i class="fa-brands fa-instagram"></i></a>
+        
+    </footer>
+</body>
+</html>
